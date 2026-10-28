@@ -2,6 +2,8 @@
 
 使用一只 Logitech MX ERGO，在原生 macOS 鼠标操作与中英文打字之间切换。
 
+[下载最新 App](https://github.com/narsecho/ThumbBall/releases/latest) · [验证说明](VERIFICATION.md)
+
 ## 项目目的
 
 ThumbBall 源于 FSD 出行场景下的单手电脑交互设想：希望一只手握住轨迹球鼠标，就能完成指针操作、搜索、文字回复和短文本输入，减少鼠标与键盘之间的切换。车内实际使用限安全停车或乘客状态，驾驶员不应在行驶中操作电脑，FSD 不能作为分心使用电脑的依据。项目同样适用于桌面办公、移动办公及单手电脑操作需求。
