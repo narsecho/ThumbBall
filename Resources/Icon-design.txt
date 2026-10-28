@@ -1,0 +1,7 @@
+Tool: built-in image_gen (transparent background).
+Final prompt:
+Use case: logo-brand
+Asset type: production macOS app icon for ThumbBall (TB), a trackball-operated circular typing app.
+Create one beautiful polished icon, square 1024x1024 composition, transparent exterior around a single macOS rounded-square tile with generous standard icon margin (tile occupies about 82% of canvas). Deep midnight-blue tile, subtle dimensional bevel and soft tactile satin finish. Main symbol: a luminous pearl-white trackball sphere centered inside a clean circular segmented orbit with exactly eight small restrained cyan/teal peripheral key segments, representing eight directions plus a central ball. Integrate a subtle elegant TB monogram in the sphere, impeccably clear custom rounded geometric letters, exact text "TB", dark navy, large and legible. Sophisticated blue-teal light accents, convincing soft studio lighting, restrained depth rather than glossy clutter. Recognizable at 32px, simple bold silhouette, strong contrast, premium native desktop utility feel. Straight-on orthographic view. Single icon only, no mockup scene, no label outside the tile, no tiny alphabet lettering, no watermark, no Apple or Logitech logos. Actual transparent alpha outside the rounded-square tile.
+
+Output: ThumbBall-icon.png, preserved original alpha. Icon sizes created using sips; ICNS PNG representations packaged and successfully extracted with iconutil for validation.

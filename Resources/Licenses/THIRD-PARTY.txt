@@ -1,0 +1,26 @@
+ThumbBall 1.5 third-party components
+
+librime 1.17.0 / commit33e7814 (BSD-3-Clause)
+Official release: https://github.com/rime/librime/releases/tag/1.17.0
+Artifact: rime-33e7814-macOS-universal.tar.bz2
+SHA256: 11d8dc663c6ec06d5ccb6111ba664a9e7b631b703ac6acd07cffbac664021850
+Bundled: arm64 slice, re-signed locally during app build.
+Upstream source and dependencies: https://github.com/rime/librime/tree/1.17.0
+The supplied binary has only system dynamic dependencies. Notices for its
+upstream core dependencies are included alongside this file (Boost, glog,
+LevelDB, yaml-cpp, marisa-trie and OpenCC). Rime Lua, octagram and predict
+plugins are NOT included.
+
+rime-ice / commit da1fbe602e38f26db846fa10120ee64c2b0324c0 (GPL-3.0)
+https://github.com/iDvel/rime-ice/tree/da1fbe602e38f26db846fa10120ee64c2b0324c0
+Unmodified dictionary sources: cn_dicts/8105.dict.yaml, base.dict.yaml,
+ext.dict.yaml. Their source attribution comments are retained in full.
+thumbball_t9.schema.yaml adapts the upstream t9.schema.yaml numeric mapping,
+using only built-in Rime components. It omits the phone-specific t9_processor,
+Lua utilities, emoji/OpenCC filters, super-abbreviation rules and cloud services.
+No WeChat proprietary engine or dictionary is used.
+
+ThumbBall application source modifications and adapted T9 configuration are
+provided under GPL-3.0; see project LICENSE. Third-party code/data retains
+its respective license. A complete ThumbBall source package accompanies the
+local build; upstream library source is available at the pinned URL above.

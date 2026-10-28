@@ -1,0 +1,11 @@
+# Dictionary imported unchanged from rime-ice, see Resources/Licenses.
+---
+name: thumbball
+version: "2026-10-27"
+sort: by_weight
+use_preset_vocabulary: false
+import_tables:
+  - cn_dicts/8105
+  - cn_dicts/base
+  - cn_dicts/ext
+...

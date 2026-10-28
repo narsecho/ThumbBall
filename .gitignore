@@ -1,0 +1,10 @@
+.DS_Store
+.module-cache/
+*.app/
+*.zip
+*.log
+build/
+DerivedData/
+mapping.json
+*.userdb/
+*.userdb.txt
